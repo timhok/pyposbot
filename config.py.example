@@ -1,0 +1,24 @@
+# -*- coding: utf-8 -*-
+# put your token from @BotFather here
+telegram_bot_token = "1234567891:7HA3tl8mkTZxaISyDxaCuSNofrPp9nlt3Pz" 
+
+# density in dots per row, can be configured in printer
+printer_basewidth = 576
+
+# charcode, cp866 for Russian (cyrillic)
+printer_charcode = "CP866"
+
+# double height and width of default font
+settings_text_doublesize = True 
+
+# path to store user images
+settings_images_storepath = "userimages/" 
+
+# rotating images gives more esthetic look when printing
+settings_images_rotate = True 
+
+# maximum images that user can print per one command
+settings_moreimages_max = 10
+
+# cut each image when printing multiple of them
+settings_moreimages_cuteach = True 

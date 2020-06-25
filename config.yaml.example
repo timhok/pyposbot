@@ -1,0 +1,9 @@
+# https://python-escpos.readthedocs.io/en/latest/user/usage.html#the-printer-section
+# https://github.com/receipt-print-hq/escpos-printer-db/blob/master/doc/add-your-printer.md#how-to-write-a-printer-profile
+printer:
+  type: serial
+  devfile: "COM8"
+  media:
+    width:
+      mm: 80
+      pixels: 576
